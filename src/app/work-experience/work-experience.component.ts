@@ -14,7 +14,7 @@ export class WorkExperienceComponent {
   ngOnInit(): void {
     let work1 = {
       fecha : "2021-2022",
-      ubicacion : "Monterrey, Nuevo Leon",
+      ubicacion : "Monterrey, Nuevo Leonn",
       puesto : "System Administrator",
       empresa: "Tec de Monterrey",
       logros : [
