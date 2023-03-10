@@ -1,1 +1,11 @@
-<p>skillscompetences works!</p>
+<h3>Competencias y Habilidades</h3>
+<ul *ngFor="let competence of competences">
+  <li>
+    <tr>
+      <td>{{competence.comp}}</td>
+      <td>{{competence.percentage}}</td>
+    </tr>
+
+  </li>
+
+</ul>
